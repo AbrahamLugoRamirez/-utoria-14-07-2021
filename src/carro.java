@@ -1,14 +1,16 @@
 public class carro {
+    //atributos
     private String color;
     private String marca;
     private String placa;
     private String propietario;
+    // contructor con parametros predeterminados para su creación
     public carro(String color, String marca, String placa){
         this.color = color;
         this.marca = marca;
         this.placa = placa;
     }
-
+    //Metodos
     public String getColor(){
         return this.color;
     }
